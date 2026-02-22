@@ -1,0 +1,57 @@
+<!-- HTML5 declaration -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Contact</title>
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Contact section -->
+    <section>
+        <h1>Contact Me</h1>
+
+        <!-- 
+        The form below uses HTML only.
+        The 'required' attribute forces users to fill fields before submission.
+        -->
+        <form action="thankyou.html">
+
+            <!-- Name field -->
+            <label>Name:</label>
+            <input type="text" name="name" required>
+
+            <!-- Email field -->
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <!-- Message field -->
+            <label>Message:</label>
+            <textarea name="message" required></textarea>
+
+            <!-- Submit button -->
+            <button type="submit">Send</button>
+
+        </form>
+    </section>
+
+</body>
+</html>
