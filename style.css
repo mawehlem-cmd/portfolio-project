@@ -1,0 +1,58 @@
+/* This styles the entire body of the website */
+body {
+    font-family: Arial, sans-serif; /* Changes font */
+    margin: 0; /* Removes default spacing */
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Styles the navigation bar */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles navigation links */
+nav a {
+    color: white; /* White text */
+    margin: 10px;
+    text-decoration: none; /* Removes underline */
+}
+
+/* Adds hover effect */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Styles main sections */
+section {
+    padding: 20px;
+}
+
+/* Styles form inputs */
+input, textarea {
+    display: block; /* Places each on new line */
+    width: 100%; /* Full width */
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+/* Styles button */
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+/* MEDIA QUERY for responsiveness */
+/* This applies styles when screen width is 600px or smaller */
+@media (max-width: 600px) {
+
+    /* Makes navigation links stack vertically on small screens */
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
